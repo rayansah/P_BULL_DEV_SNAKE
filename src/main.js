@@ -27,7 +27,26 @@ function startGame() {
 }
 
 function draw() {
-  // A compléter
+    // Efface le canvas, puis dessine la pomme
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  // Nouvelle position de la tête, selon la direction
+  const head = moveSnake(snake, direction, box);
+    // Si la tête touche un mur : on arrête le jeu
+  if (checkWallCollision(head, canvas, box)) {
+    clearInterval(gameInterval);
+    alert("Game over !");
+    return;
+  }
+  // On ajoute cette tête au début du tableau
+  snake.unshift(head);
+  // Si la tête est sur la pomme : on garde la queue (il grandit) et on crée une nouvelle pomme
+  if (head.x === food.x && head.y === food.y) {
+    food = generateFood(box, canvas);
+  } else {
+    // Sinon on retire la queue : le serpent avance
+    snake.pop();
+  }  drawFood(ctx, food, box);
+  drawSnake(ctx, snake, box);
 }
 
 startGame();

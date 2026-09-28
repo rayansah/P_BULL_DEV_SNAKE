@@ -51,6 +51,9 @@ export function moveSnake(snake, direction, box) {
  * @param {Array<{x: number, y: number}>} snake - Un tableau représentant le serpent, où chaque élément est un segment avec des coordonnées `x` et `y`.
  * @param {number} box - La taille d'une case de la grille en pixels, utilisée pour déterminer la taille de chaque segment du serpent.
  */
- export function drawSnake() {
-  // A compléter
+ export function drawSnake(ctx, snake, box) {
+  snake.forEach((segment, index) => {
+    ctx.fillStyle = index === 0 ? "darkgreen" : "limegreen";
+    ctx.fillRect(segment.x, segment.y, box, box)
+  });
 }
