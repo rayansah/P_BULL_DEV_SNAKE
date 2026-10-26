@@ -1,4 +1,14 @@
 /**
+ * ETML
+ *
+ * Auteur initial : Rayan Sahbani
+ * Date initiale : 24.08.2026
+ *
+ *
+ * @module  controls
+ * @author  Rayan Sahbani
+ */
+/**
  * Gère le changement de direction du serpent en fonction de l'entrée de l'utilisateur.
  *
  * Cette fonction est appelée chaque fois qu'une touche directionnelle est pressée.

@@ -1,3 +1,13 @@
+/**
+ * ETML
+ *
+ * Auteur initial : Rayan Sahbani
+ * Date initiale : 24.08.2026
+ *
+ *
+ * @module  main
+ * @author  Rayan Sahbani
+ */
 import { initSnake, moveSnake, drawSnake } from "./snake.js";
 import { generateFood, drawFood } from "./food.js";
 import { handleDirectionChange } from "./controls.js";

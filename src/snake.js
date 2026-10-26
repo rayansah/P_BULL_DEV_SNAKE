@@ -1,4 +1,14 @@
 /**
+ * ETML
+ *
+ * Auteur initial : Rayan Sahbani
+ * Date initiale : 24.08.2026
+ *
+ *
+ * @module  snake
+ * @author  Rayan Sahbani
+ */
+/**
  * Initialise le serpent au début du jeu.
  *
  * Cette fonction crée le serpent en tant que tableau contenant un seul segment,

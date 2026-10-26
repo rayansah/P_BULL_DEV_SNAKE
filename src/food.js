@@ -1,4 +1,14 @@
 /**
+ * ETML
+ *
+ * Auteur initial : Rayan Sahbani
+ * Date initiale : 24.08.2026
+ *
+ *
+ * @module  food
+ * @author  Rayan Sahbani
+ */
+/**
  * Génère de manière aléatoire la position de la nourriture sur la grille du jeu.
  *
  * La nourriture est placée à une position aléatoire sur la grille, en s'assurant

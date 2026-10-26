@@ -1,4 +1,14 @@
 /**
+ * ETML
+ *
+ * Auteur initial : Rayan Sahbani
+ * Date initiale : 24.08.2026
+ *
+ *
+ * @module  collision
+ * @author  Rayan Sahbani
+ */
+/**
  * Vérifie si la tête du serpent entre en collision avec son propre corps.
  *
  * Cette fonction détermine si la tête du serpent occupe la même position que

@@ -1,4 +1,14 @@
 /**
+ * ETML
+ *
+ * Auteur initial : Rayan Sahbani
+ * Date initiale : 24.08.2026
+ *
+ *
+ * @module  score
+ * @author  Rayan Sahbani
+ */
+/**
  * Dessine le score sur le canvas.
  *
  * Cette fonction affiche le score actuel du jeu dans le coin supérieur gauche du canvas.
